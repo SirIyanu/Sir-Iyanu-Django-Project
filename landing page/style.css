@@ -6,12 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1440px) {
   .container {
     background-color: #cdb4db;
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 375px) {
   .container {
     background-color: #52b788;
   }

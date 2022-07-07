@@ -13,13 +13,13 @@ $desktop: 1440px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-@media (max-width: $mobile){
+@media (max-width: $desktop){
 .container {
   background-color:#cdb4db;
 }
 }
 
-@media (max-width: $desktop){
+@media (max-width: $mobile){
   .container {
     background-color:#52b788;
   }
