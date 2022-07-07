@@ -1,3 +1,11 @@
+$colour-1: #cdb4db;
+$colour-2: #fff1eb;
+$colour-3: #52b788;
+$colour-4: #bee1eb;
+
+$mobile: 375px;
+$desktop: 1440px;
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
@@ -5,35 +13,33 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+@media (max-width: $mobile){
+.container {
+  background-color:#cdb4db;
+}
+}
 
-@media (max-width: 375px) {
+@media (max-width: $desktop){
   .container {
-    background-color: #cdb4db;
+    background-color:#52b788;
   }
-}
-@media (max-width: 1440px) {
-  .container {
-    background-color: #52b788;
   }
-}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background-image: url(bg-hero-desktop.svg);
-  background-color: hsl(193deg, 100%, 96%);
+  background-color: hsl(193, 100%, 96%);
 }
-
 .button1 {
   background-color: white;
   border-radius: 20px;
   padding: 5px 35px;
   border: solid whitesmoke;
-  color: hsl(192deg, 100%, 9%);
+  color: hsl(192, 100%, 9%);
   display: inline-block;
 }
-
 .button2 {
   background-color: hotpink;
   border-radius: 40px;
@@ -42,7 +48,6 @@ header {
   color: white;
   display: inline-block;
 }
-
 .button3 {
   background-color: hotpink;
   border-radius: 40px;
@@ -51,7 +56,6 @@ header {
   color: white;
   display: inline-block;
 }
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -60,41 +64,34 @@ header {
   text-decoration: none;
   border-radius: 50%;
 }
-
 .fa-gmail {
   color: white;
-  background: hsl(192deg, 100%, 9%);
+  background: hsl(192, 100%, 9%);
 }
-
 .fa-twitter {
   color: white;
-  background: hsl(192deg, 100%, 9%);
+  background: hsl(192, 100%, 9%);
 }
-
 .fa-facebook {
   color: white;
-  background: hsl(192deg, 100%, 9%);
+  background: hsl(192, 100%, 9%);
 }
-
 .fa-instagram {
   color: white;
-  background: hsl(192deg, 100%, 9%);
+  background: hsl(192, 100%, 9%);
 }
-
 .container {
   margin: 0 auto;
   padding: 10px 20px;
 }
-
 .second-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: url(bg-hero-desktop.svg);
-  background-color: hsl(193deg, 100%, 96%);
+  background-color: hsl(193, 100%, 96%);
   width: 100%;
 }
-
 .third-container {
   padding: 100px;
   display: flex;
@@ -103,7 +100,6 @@ header {
   border: 3px solid whitesmoke;
   margin: 100px 30px;
 }
-
 .fourth-container {
   padding: 80px;
   display: flex;
@@ -112,7 +108,6 @@ header {
   border: 3px solid whitesmoke;
   margin: 100px 30px;
 }
-
 .five-container {
   padding: 100px;
   display: flex;
@@ -121,7 +116,6 @@ header {
   border: 3px solid whitesmoke;
   margin: 100px 30px 160px;
 }
-
 .sixth-container {
   position: absolute;
   left: 50%;
@@ -137,23 +131,20 @@ header {
   margin-top: -160px;
   text-align: center;
 }
-
 .seventh-container {
   width: 100%;
   display: flex;
   padding: 30px 30px;
   justify-content: space-between;
-  background-color: hsl(192deg, 100%, 9%);
-  color: hsl(193deg, 100%, 96%);
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
   position: relative;
 }
-
 .sixth-style {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 /* .header{
     justify-content: center;
     padding: 40px;
@@ -206,4 +197,4 @@ header {
     padding: 10px;
 
 
-} *//*# sourceMappingURL=style.css.map */
+} */
